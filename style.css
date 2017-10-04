@@ -1,0 +1,73 @@
+.ui.riot-logo.dropdown.link.item {
+  background: url("https://lolstatic-a.akamaihd.net/riotbar/prod/1.6.68/images/navigation/icon-game-lol.png?1498498406") no-repeat 5px;
+  display: inline-block;
+  height: 50px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.ui.top.menu {
+  background-color: #3C3C3B;
+  border: none;
+  height: 52px;
+  margin-bottom: 0px;
+}
+
+.logo.text {
+  color: #f1e6d0;
+}
+
+#navbar {
+  font-size: 18px;
+  line-height: 50px;
+  padding-left: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.search-image {
+  background: 50% 0 url(https://lolstatic-a.akamaihd.net/player-support/support.riotgames.com/images/search-bg.jpg?1) #060606 no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.black-background {
+  background-color: #191919;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.ui.one.column.centered.grid.container.support-text {
+  padding-bottom: 50px;
+}
+
+.column.support {
+  font-size: 45px;
+}
+
+.ui.segment.image1 {
+  background: url("http://forums.na.leagueoflegends.com/board/attachment.php?attachmentid=885757");
+  background-size: 75px 86px;
+  width: 300px;
+  height: 345px;
+  font-size: 20px;
+}
+
+.ui.segment.image2 {
+  background: url("http://i.imgur.com/u7vHLuX.png");
+  background-size: 300px 345px;
+  width: 300px;
+  height: 345px;
+  font-size: 20px;
+}
+
+.ui.segment.image3 {
+  background: url("https://www.mobafire.com/images/champion/skins/portrait/fiora-headmistress.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 345px;
+  font-size: 20px;
+}

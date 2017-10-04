@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>League Support</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ui top menu">
+  <div class="ui riot-logo dropdown link item">
+    <div class="logo text">Explore<br>League</div>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="header">League of Legends</div>
+      <div class="divider"></div>
+      <div class="item">HOME</div>
+      <div class="item">NEWS</div>
+      <div class="item">GAME</div>
+      <div class="item">UNIVERSE</div>
+    </div>
+  </div>
+  <div id="navbar" class="ui navbar centered grid container">
+    <a style="color: #f1e6d0; font-weight: bold" class="item">SUPPORT</a>
+    <a style="color: #c9aa71; font-size: 14px" class="item">MY TICKETS</a>
+    <a style="color: #c9aa71; font-size: 14px" class="item">SUBMIT A REQUEST</a>
+    <a style="color: #c9aa71; font-size: 14px" class="item">SERVICE STATUS</a>
+  </div>
+  <a class="fitted right item"><i class="ui big teal info circle icon"></i></a>
+  <a style="color: #c9aa71" class="item">LOGIN</a>
+</div>
+
+<div class="search-image">
+  <img style="padding-bottom: 100px" class="ui centered image"
+       src="https://lolstatic-a.akamaihd.net/player-support/support.riotgames.com/quantum-core/prod/v1.0.10/components/q-logo/images/league/md.png">
+  <div class="ui centered container">
+    <div class="ui huge fluid transparent left icon input">
+      <input type="text" placeholder="Search the League of Legends Help Center">
+      <i class="search icon"></i>
+    </div>
+    <hr>
+  </div>
+</div>
+
+<div class="black-background">
+  <div class="ui one column centered grid container support-text">
+    <div class="column support">
+      Check out these
+    </div>
+    <div class="column support">
+      new Support Tools
+    </div>
+    <hr>
+  </div>
+
+  <div class="ui three column centered grid container">
+    <div class="column">
+      <div class="ui segment image1">
+      <p style="font-weight: bold">Upset?</p>
+      <p>Welcome to League of Legends!</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui segment image2">
+        <p style="font-weight: bold">Feeling Troubled?</p>
+        <p>New banners released in game now!</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui segment image3">
+        <p style="font-weight: bold">Laning against Fiora top?</p>
+        <p>Leaver buster provides six minutes of free activity!</p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+  $('.dropdown').dropdown({ transition: 'drop', on: 'hover' });
+
+</script>
+</body>
+</html>
